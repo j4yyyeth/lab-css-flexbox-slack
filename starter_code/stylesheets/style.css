@@ -26,6 +26,27 @@ header {
     margin: auto auto;
 }
 
+nav {
+    display:flex;
+    justify-content: space-between;
+    padding: 4vh 4vw;
+}
+
+.nav-part-2{
+    display: flex;
+    gap: 30px; 
+}
+
+.nav-part-2 button{
+    background-color: #540B51;
+    border: none;
+}
+
+.nav-border{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25)
+}
+
+
 
 
 //
