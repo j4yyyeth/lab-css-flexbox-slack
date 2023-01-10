@@ -15,6 +15,12 @@ footer links grey: #454245
     overflow-x: hidden;
 }
 
+html {
+    font-size: 10px;
+}
+
+/* Instead of changing the font size for each div/element you can just do it relative to the html as a rem */
+
 header {
     background-color: #540B51;
     width: 100%;
@@ -148,12 +154,35 @@ nav {
     display: flex;
     flex-direction: column;
     width: 90%;
-   
-    font-size: 30px;
     gap:2vh;
     margin: 3vh 0 5vh 2%;
 }
 
+.user-feedback {
+    padding-top: 30px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 5px solid red;
+    font-size: 2rem;
+    /* delete that border bottom soon */
+}
+
+.enterprise-sales-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-feedback ul {
+    text-align: center;
+}
+
+.user-feedback li {
+    margin-top: 40px;
+}
 
 
 
