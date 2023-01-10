@@ -17,11 +17,7 @@ footer links grey: #454245
 header {
     background-color: #540B51;
     width: 100%;
-}
-
-.logo {
-    width: 20vw;
-    float: left;
+    padding: 10px;
 }
 
 
