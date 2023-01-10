@@ -12,18 +12,19 @@ footer links grey: #454245
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header {
     background-color: #540B51;
     width: 100%;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
     width: 20vw;
     float: left;
-    margin: auto auto;
 }
 
 nav {
@@ -42,9 +43,77 @@ nav {
     border: none;
 }
 
-.nav-border{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25)
+
+/* .nav-border{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+
+} */
+
+.action-call {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vw;
 }
+
+.action-call h1{
+    text-align: center;
+    width: 65vw;
+}
+
+.diff-color {
+    color:#ECB12F;
+}
+
+.action-call-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.action-call button {
+    width: 93vw;
+    height: 10vw;
+    border: none;
+    border-radius: 5px;
+}
+
+#google-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #4285F4;
+    color: white;
+}
+
+#google-button img {
+    width: 5vw;
+    padding: 5px;
+    background-color: white;
+    border-radius: 3px;
+    position: relative;
+    left: 10px;
+}
+
+#sign-up-button {
+    color:#540B51;
+}
+
+#google-button span {
+    text-align: center;
+}
+
+#screenshot img {
+    height: 60vh;
+    position: relative;
+    top: 80px;
+}
+
+#screenshot {
+    overflow-y: hidden;
+}
+
 
 
 
