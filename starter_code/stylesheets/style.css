@@ -24,7 +24,6 @@ header {
 
 .logo {
     width: 20vw;
-    float: left;
 }
 
 nav {
@@ -114,6 +113,46 @@ nav {
     overflow-y: hidden;
 }
 
+#ivory {
+    background-color: #F3EAE2;
+    padding-top: 10px;
+}
+
+#trusted-logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0;
+}
+
+#trusted-logos img {
+   height: 5vh;
+   margin: 1vh 1vw;
+}
+
+.phone-bookmarks{
+    width: 95%;
+}
+
+.companies-paragraph{
+    text-align: center;
+    margin: 3vh 0;
+}
+
+.right-image{
+    margin-left: 5%;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   
+    font-size: 30px;
+    gap:2vh;
+    margin: 3vh 0 5vh 2%;
+}
 
 
 
