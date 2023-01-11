@@ -64,7 +64,8 @@ nav {
 
 .action-call h1{
     text-align: center;
-    width: 65vw;
+    width: 250px;
+    font-size: 30px;
 }
 
 .diff-color {
@@ -75,6 +76,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    height: 100px;
 }
 
 .action-call button {
@@ -169,11 +171,18 @@ nav {
 }
 
 .initial-user-feedback {
+    margin-top: 20px;
     height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.initial-user-feedback p{
+text-align: center;
+width: 80vw;
+padding: 10px;
 }
 
 .enterprise-sales-buttons {
@@ -333,6 +342,11 @@ footer {
         height: 60px;
     }
 
+    #google-button img {
+        height: 20px;
+        width: 20px;
+    }
+
     #screenshot img {
         width: 50vw;
         height: 30vw;
@@ -341,14 +355,13 @@ footer {
 
     .action-call h1 {
         font-size: 5rem;
-        width: 30vw;
+        width: 250px;
         text-align: left;
     } 
 
     .action-call p {
         font-size: 2rem;
-        width: 35vw;
-        
+        width: 280px;
     }
 
 }
