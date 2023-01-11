@@ -185,6 +185,39 @@ nav {
 }
 
 
+@media (max-width: 1024px) {
+   .unhidden{
+    display: none;
+    
+   }
+}
+
+/* this is where i had problems with the 
+media. apears under the right contraints 
+but just can't get them to format from here.
+Tried going into the og div or section and it 
+would revent the previous changes so I got kinda 
+stuck. will be at class at least 20 minutes 
+early barring anything crasy to go over
+*/
+
+
+.unhidden{
+background-color: aqua;
+}
+
+
+
+
+.nav-part-1 {
+    display: flex;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1404px) {
+    
+}
+
 
 //
 
