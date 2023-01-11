@@ -309,6 +309,17 @@ footer {
    }
 }
 
+@media (min-width:768px) and (max-width: 1024px) {
+    #call-to-action-plus{
+        display: flex;
+    }
+
+
+}
+
+
+
+
 /* this is where i had problems with the 
 media. apears under the right contraints 
 but just can't get them to format from here.
@@ -332,7 +343,7 @@ background-color: aqua;
 
 
 @media (min-width: 1024px) and (max-width: 1404px) {
-    
+
 }
 
 
