@@ -309,13 +309,51 @@ footer {
    }
 }
 
+/* small screens below */
+
 @media (min-width:768px) and (max-width: 1024px) {
-    #call-to-action-plus{
+    
+    #call-to-action-plus {
         display: flex;
+        gap: 20px;
+        background-image: url("../images/background-singup.png");
+        background-size: 120vw;
+        background-repeat: no-repeat;
     }
 
+    .action-call {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 40px 0px 100px 20px;
+    }
+
+    .action-call button {
+        width: 30rem;
+        height: 60px;
+    }
+
+    #screenshot img {
+        width: 50vw;
+        height: 30vw;
+        margin-bottom: 200px;
+    }
+
+    .action-call h1 {
+        font-size: 5rem;
+        width: 30vw;
+        text-align: left;
+    } 
+
+    .action-call p {
+        font-size: 2rem;
+        width: 35vw;
+        
+    }
 
 }
+
+/* small screens ontop */
 
 
 
