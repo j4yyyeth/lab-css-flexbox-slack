@@ -95,12 +95,13 @@ nav {
 }
 
 #google-button img {
-    width: 5vw;
+    width: 20px;
     padding: 5px;
     background-color: white;
     border-radius: 3px;
     position: relative;
     left: 10px;
+    margin-right: 7rem;
 }
 
 #sign-up-button {
@@ -139,13 +140,20 @@ nav {
    margin: 1vh 1vw;
 }
 
+h2{
+    font-size: 4rem;
+}
+
 .phone-bookmarks{
     width: 95%;
 }
 
+
+
 .companies-paragraph{
     text-align: center;
     margin: 3vh 0;
+    font-size: 2rem;
 }
 
 .right-image{
@@ -158,6 +166,15 @@ nav {
     width: 90%;
     gap:2vh;
     margin: 3vh 0 5vh 2%;
+}
+
+.main-content p {
+    font-size: 2rem;
+}
+
+.main-content span {
+    font-size: 2rem;
+    text-decoration: none;
 }
 
 .user-feedback {
@@ -255,7 +272,8 @@ padding: 10px;
 
 .sales-free-buttons button {
     width: 93vw;
-    height: 13vw;
+    height: 80px;
+    font-size: 2rem;
 }
 
 #sales-button-2 {
@@ -324,10 +342,11 @@ footer {
     
     #call-to-action-plus {
         display: flex;
-        gap: 20px;
+        justify-content: space-between;
         background-image: url("../images/background-singup.png");
         background-size: 120vw;
         background-repeat: no-repeat;
+
     }
 
     .action-call {
@@ -363,6 +382,74 @@ footer {
         font-size: 2rem;
         width: 280px;
     }
+
+    #trusted-logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    align-items: center;
+        
+    }
+    #trusted-logos div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    align-items: center;
+        
+    }
+
+    .phone-bookmarks{
+        width: 50%;
+    }
+    
+    .right-image{
+        margin-left: 50%;
+    }
+
+    .main-content{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 700px;
+    }
+
+    #whole-thing{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .user-feedback ul {
+        display: flex;
+        text-align: center;
+        overflow-y: hidden;
+        gap: 5%;
+        width: 80%;
+    }
+    
+
+    .enterprise-sales-buttons button {
+    width: 35vw;
+    height: 10vw;
+}
+
+.enterprise-sales-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
+
+.footer-part-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sales-free-buttons button {
+    width: 600px;
+    height: 80px;
+    font-size: 2rem;
+}
 
 }
 
